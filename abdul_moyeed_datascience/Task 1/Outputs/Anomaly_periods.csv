@@ -1,0 +1,32 @@
+
+           Anomalous Periods
+
+
+
+Anomaly detection done per cluster!
+Total anomalous events detected: 2021
+
+
+
+                       Anomaly 1
+
+ Anomaly 1350: 2018-04-24 01:45:00 → 2018-04-24 01:45:00  (Duration: 0.0 min)
+   Avg values during anomaly: {'Cyclone_Inlet_Gas_Temp': 945.28, 'Cyclone_Gas_Outlet_Temp': 737.81, 'Cyclone_Material_Temp': 1038.52}
+    Hypothesis: Minor fluctuation or transient disturbance.
+
+
+
+                      Anomaly 2
+
+
+Anomaly 2768: 2019-02-17 03:40:00 → 2019-02-17 03:40:00  (Duration: 0.0 min)
+   Avg values during anomaly: {'Cyclone_Inlet_Gas_Temp': 823.95, 'Cyclone_Gas_Outlet_Temp': 784.68, 'Cyclone_Material_Temp': 826.07}
+    Hypothesis: Minor fluctuation or transient disturbance.
+
+
+                      Anomaly 3
+
+
+ Anomaly 1442: 2018-04-28 11:40:00 → 2018-04-28 11:40:00  (Duration: 0.0 min)
+   Avg values during anomaly: {'Cyclone_Inlet_Gas_Temp': 895.94, 'Cyclone_Gas_Outlet_Temp': 595.96, 'Cyclone_Material_Temp': 859.37}
+    Hypothesis: Minor fluctuation or transient disturbance.

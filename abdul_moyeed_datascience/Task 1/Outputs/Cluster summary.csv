@@ -1,0 +1,40 @@
+                             Clusters summary
+
+
+
+
+
+Clustering complete! 4 states detected.
+
+Cluster Summary Stats:
+ 	Cyclone_Inlet_Gas_Temp	                           Cyclone_Gas_Outlet_Temp	               Cyclone_Material_Temp Cyclone_Inlet_Draft	Cyclone_Outlet_Gas_draft	                         Cyclone_cone_draft
+cluster  mean	           std	       min	max	   mean	       std	min	max	    mean	std	     min	max        mean	           std	      min        max     mean           std	          min       max
+												 									
+0.0	888.067618	27.431004     100.0	1157.63	877.345302   40.651232	210.49	1375.00   918.817063	73.178335   -233.41	-2.22      -198.679051	25.197254   -291.59	5.53	-184.892955	28.006265	-261.40	     3.70
+1.0	280.065841	121.855724    100.0	707.16	272.392610   122.069846	26.71	661.19	  163.045535	141.313667  -74.02	32.78	   1.964728	12.532404   -97.39	38.11	-6.937966	10.071689	-116.07	     66.39
+2.0	897.386524	24.725678     100.0	1135.63	880.012002   55.159307	207.89	1375.00	  927.263418	65.652409   -396.37	-148.87	   -254.242319	20.249343   -456.66	-190.71	-231.982582	23.642601	-459.31	    -86.55
+3.0	653.612737	137.074153    100.0	1081.03	636.020172   133.538928	70.78	1003.74	  690.563383	238.732412  -111.22	41.64	   -1.255728	26.651455   -184.19	40.27	-14.179554	25.771016	-200.87	    488.86
+
+
+
+Cluster Frequency & Duration:
+
+cluster Occurrences	Total_Hours
+0.0	142179	       11848.250000
+1.0	11567	       963.916667
+2.0	152458	       12704.833333
+3.0	9027	       752.250000
+
+
+
+
+Cluster Interpretations:
+Cluster 0: Normal Operation – Balanced temperature and pressure
+Cluster 1: High Load – High inlet and material temperatures
+Cluster 2: Degraded/Transition – Unstable draft or lower efficiency
+Cluster 3: Startup/Shutdown – Transitional short bursts
+
+
+
+
+

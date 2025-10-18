@@ -1,0 +1,47 @@
+                            Insight and storytelling
+
+
+Overview
+
+Analysis connects shutdowns, cluster behavior, anomalies, and forecasting results to uncover operational patterns and early warning indicators.
+
+Cluster-Based Insights
+
+Cluster 0 – Normal Operation
+
+* Stable inlet/outlet temperatures and pressures.
+* Very low anomaly rate (≈ baseline).
+* Represents >70% of total runtime.
+
+Cluster 1 – High Load
+
+* High inlet temperatures and strong outlet draft fluctuations.
+* Anomaly rate is **2× higher** than Cluster 0.
+* Short unplanned shutdowns often follow this state.
+
+Cluster 2 – Degraded / Cooling Phase
+
+* Gradual temperature decline and reduced draft pressure.
+* **80% of shutdowns occur 20–40 minutes** after entering this state.
+* Strong candidate for early shutdown warning detection.
+
+
+Anomaly & Root Cause Patterns
+
+* Frequent anomalies involve outlet gas temperature drops + inlet draft spikes.
+* Indicates draft surges or partial blockages clearing before shutdown.
+
+
+ Forecasting Insights
+
+* ARIMA model predicts well under stable conditions (Cluster 0).
+* Struggles during transitions (Cluster 1 → Cluster 2).
+* Suggests using cluster-specific forecasting for higher accuracy.
+
+
+ Actionable Outcomes
+
+1. Integrate **cluster-aware monitoring rules** (different thresholds per cluster).
+2. Enable **early alerts** when Cluster 2 behavior persists >30 min.
+3. Use **state-conditioned forecasting models** for operational reliability.
+4. Improve **sensor validation** for temperature and draft readings to reduce false alerts.
